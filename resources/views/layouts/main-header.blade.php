@@ -35,7 +35,7 @@
                 </div>
                 <div class="dropdown-header">
                     <div class="media">
-                        <a href="#"> تعديل البيانات الشخصية </a>
+                        <a href="{{route('user.profile')}}"> تعديل البيانات الشخصية </a>
                     </div>
                 </div>
                 <div class="dropdown-divider">

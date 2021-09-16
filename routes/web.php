@@ -33,6 +33,9 @@ Route::prefix( 'dashboard')->middleware('auth')->group(function(){
         'index', 'destroy'
     ]);
 
+    Route::match(['get', 'post'], 'profile', [App\Http\Controllers\Dashboard\UserController::class, 'profile'])->name('user.profile');
+
+
 });
 
 

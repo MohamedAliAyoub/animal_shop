@@ -77,6 +77,20 @@ class UserController extends Controller
 
     }
 
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param int $id
+     * @return RedirectResponse
+     */
+    public function destroy($id)
+    {
+        User::find($id)->delete();
+        return redirect()->route('user.index')->with('success ', 'تم الحذف بنجاح');
+    }
+// edit your profile
+
     public function profile(Request $request)
     {
         if ($request->isMethod('post')) {
@@ -103,22 +117,11 @@ class UserController extends Controller
                     'name' => $request->name,
                     'email' => $request->email
                 ]);
-            return redirect()->route('dashboard.user.profile')->with('success', 'updated done successfully');
+            return redirect()->route('user.profile')->with('success', 'updated done successfully');
         }
         return view('dashboard.profile.edit', [
             'user' => auth()->user()
         ]);
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param int $id
-     * @return RedirectResponse
-     */
-    public function destroy($id)
-    {
-        User::find($id)->delete();
-        return redirect()->route('user.index')->with('success ', 'تم الحذف بنجاح');
-    }
 }
