@@ -40,9 +40,8 @@ login-->
                 <div class="col-lg-4 col-md-6 login-fancy-bg bg"
                      style="background-image: url('{{ asset('images/login-inner-bg.jpg') }}');">
                     <div class="login-fancy">
-                        <h2 class="text-white mb-20">Hello world!</h2>
-                        <p class="mb-20 text-white">Create tailor-cut websites with the exclusive multi-purpose
-                            responsive template along with powerful features.</p>
+                        <h2 class="text-white mb-20">متجر للحيوانات</h2>
+                        <p class="mb-20 text-white"> لوحة تحكم متجر الكتروني لبيع وعرض الحيوانات</p>
                         <ul class="list-unstyled  pos-bot pb-30">
                             <li class="list-inline-item"><a class="text-white" href="#"> Terms of Use</a> </li>
                             <li class="list-inline-item"><a class="text-white" href="#"> Privacy Policy</a></li>
