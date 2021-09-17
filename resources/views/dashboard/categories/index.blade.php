@@ -33,12 +33,11 @@
                             </ul>
                         </div>
                     @endif
-                        @if ($message = Session::get('success'))
-                            <div class="alert alert-success alert-block">
+                        @if ($message = session()->get('success'))
+                            <div class="alert alert-success alert-block mb-4">
                                 <button type="button" class="close" data-dismiss="alert">×</button>
                                 <strong>{{ $message }}</strong>
                             </div>
-
                         @endif
 
 

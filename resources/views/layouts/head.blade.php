@@ -2,7 +2,7 @@
 <title>@yield("title")</title>
 
 <!-- Favicon -->
-<link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico') }}" type="image/x-icon" />
+<link rel="shortcut icon" href="{{ asset('assets/images/favicon.png') }}" type="image/x-icon" />
 
 <!-- Font -->
 <link rel="stylesheet"
