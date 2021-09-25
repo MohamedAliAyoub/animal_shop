@@ -37,6 +37,7 @@ class ProductController extends Controller
         $request->validate([
             'name' => 'required|string',
             'number' => 'required|string',
+            'price' => 'required',
             'description' => 'required|string',
             'images' => 'required',
             'images[].*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048'
@@ -48,6 +49,7 @@ class ProductController extends Controller
             'number' => $request->number,
             'description' => $request->description,
             'category_id' => $request->category_id,
+            'price' => $request->price,
 
         ]);
         if ($request->hasfile('images')) {
@@ -88,6 +90,7 @@ class ProductController extends Controller
         $request->validate([
             'name' => 'required|string',
             'number' => 'required|string',
+            'number' => 'required',
             'description' => 'required|string',
         ]);
         $product->images()->whereNotIn('id', $request->post('old_images') ?? [])->get()->each(function (Image $image) {
@@ -104,7 +107,7 @@ class ProductController extends Controller
                 Image::query()->create(['image' => $name, 'product_id' => $product->id]);
             }
         }
-        $product->update($request->only(['name', 'number', 'description', 'category_id']));
+        $product->update($request->only(['name', 'number', 'description', 'category_id','price']));
         return redirect()->route('product.index')->with('success ', 'تم التعديل بنجاح');
     }
 

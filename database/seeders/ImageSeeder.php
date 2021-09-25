@@ -26,6 +26,16 @@ class ImageSeeder extends Seeder
                     'product_id' => '2',
 
                 ] ,
+                [
+                    'image' => '2.JFIF',
+                    'product_id' => '3',
+
+                ] ,
+                [
+                    'image' => '2.JFIF',
+                    'product_id' => '4',
+
+                ] ,
 
 
             ]

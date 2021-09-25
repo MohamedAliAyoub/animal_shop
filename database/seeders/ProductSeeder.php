@@ -20,12 +20,31 @@ class ProductSeeder extends Seeder
                     'number' => '010233',
                     'description' => 'عمره 3 اعوام غير مريض ',
                     'category_id' => '1',
+                    'price' => '24.051',
                 ] ,
                 [
                     'name' => 'قطة 1',
                     'number' => '010233',
                     'description' => 'عمره 3 اعوام غير مريض ',
                     'category_id' => '2',
+                    'price' => '99.99',
+
+                ] ,
+                [
+                    'name' => 'فيل 1',
+                    'number' => '01022533',
+                    'description' => 'عمره 3 اعوام غير مريض ',
+                    'category_id' => '2',
+                    'price' => '99.99',
+
+                ] ,
+                [
+                    'name' => 'اسد 1',
+                    'number' => '01550233',
+                    'description' => 'عمره 3 اعوام غير مريض ',
+                    'category_id' => '2',
+                    'price' => '99.99',
+
                 ] ,
 
             ]

@@ -61,6 +61,7 @@
                                 <th>الرقم</th>
                                 <th>الوصف</th>
                                 <th>القسم</th>
+                                <th>السعر</th>
                                 <th>الانشطة</th>
                             </tr>
                             </thead>
@@ -74,6 +75,7 @@
                                     <td>{{ $users->number }}</td>
                                     <td>{{ $users->description }}</td>
                                     <td>{{ $users->category->name }}</td>
+                                    <td>{{ $users->price }}</td>
                                     <td>
                                         <button type="button" class="btn btn-info btn-sm" data-toggle="modal"
                                                 data-target="#show{{ $users->id }}"
@@ -141,8 +143,24 @@
                                                     </div>
                                                 </div>
 
+
                                                 <br><br>
 
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <label for="Name" class="mr-sm-2">
+                                                            السعر
+                                                            :</label>
+
+                                                        <label for="Name" class="mr-sm-2">
+                                                            <strong>{{$users->price}}</strong>
+                                                        </label>
+
+                                                    </div>
+                                                </div>
+
+
+                                                <br><br>
                                                 <div class="row">
                                                     <div class="col">
 
@@ -237,6 +255,18 @@
                                                     <div class="row">
                                                         <div class="col">
                                                             <label for="Name" class="mr-sm-2">
+                                                                السعر
+                                                                :</label>
+                                                            <input id="Name" type="text" name="price"
+                                                                   class="form-control"
+                                                                   value="{{$users->price}}"
+                                                                   required>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <label for="Name" class="mr-sm-2">
                                                                 الوصف
                                                                 :</label>
                                                             <input id="Name" type="text" name="description"
@@ -261,8 +291,6 @@
                                                                 @endforeach
 
                                                             </select>
-
-
                                                         </div>
                                                     </div>
 
@@ -387,6 +415,16 @@
                                     :</label>
                                 <input id="number" type="text" name="number" class="form-control">
                             </div>
+
+
+
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">السعر
+                                    :</label>
+                                <input id="number" type="text" name="price" class="form-control">
+                            </div>
+
+
 
                             <div class="row">
                                 <div class="col">
