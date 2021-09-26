@@ -132,12 +132,12 @@
                   <div class="product-box">
                     <div class="product-imgbox">
                       <div class="product-front">
-                        <a href="product-page(left-sidebar).html">
+                        <a href="{{route('product',$product->id)}}">
                           <img src="{{asset('images/'.$product->images->last()->image)}}" class="img-fluid  " alt="product">
                         </a>
                       </div>
                       <div class="product-back">
-                        <a href="product-page(left-sidebar).html">
+                        <a href="{{route('product',$product->id)}}">
 
                           <img src="{{asset('images/'.$product->images->first()->image)}}" class="img-fluid  " alt="product">
 

@@ -93,8 +93,8 @@
                               </ul>
                            </div>
                            <div class="brand-logo logo-sm-center">
-                              <a href="index.html">
-                              <img src="{{asset('website/images/layout-5/logo/logo.png')}}" class="img-fluid " alt="logo-header">
+                              <a href="{{route('website')}}">
+                              <img src="{{asset('website/images/layout-5/logo/animal_logo.png')}}" class="img-fluid " alt="logo-header">
                               </a>
                            </div>
                         </div>
@@ -107,15 +107,16 @@
                                  </li>
                                  <!--HOME-->
                                  <li>
-                                    <a class="" href="#">الريئسية</a>
+                                    <a class="" href="{{route('website')}}">الرئيسية</a>
                                  </li>
                                  <!--HOME-END-->
                                  <!--SHOP-->
                                  <li>
                                     <a class="dark-menu-item" href="javascript:void(0)">الاقسام</a>
                                     <ul>
+                                        <li> <a href="{{route('website')}}"> الكل </a> </li>
                                     @foreach($categories as $category)
-                                       <li><a href="about-page.html">{{$category->name}}</a></li>
+                                       <li><a href="{{route('website',$category->id)}}">{{$category->name}}</a></li>
                                     @endforeach
 
                                     </ul>
@@ -211,13 +212,14 @@
                            </div>
                            <div class="input-block">
                               <div class="input-box">
-                                 <form class="big-deal-form">
+                                 <form method="get" action="{{route('productSearch')}}" class="big-deal-form">
                                     <div class="input-group ">
-                                       <span class="search"><i class="fa fa-search"></i></span>
-                                       <input type="text" class="form-control" placeholder="Search a Product" >
+                                       <button type="submit"> <span class="search"><i class="fa fa-search"></i></span></button>
+                                       <input type="text" name="search" class="form-control" placeholder="Search a Product" >
                                         <select>
-                                            @foreach($categories as $category)
-                                                <option>{{$category->name}}</option>
+                                                <option> <a href="{{route('website')}}"> الكل </a> </option>
+                                        @foreach($categories as $category)
+                                                <option> <a href="{{route('website',$category->id)}}"> {{$category->name}} </a> </option>
                                             @endforeach
 
                                         </select>

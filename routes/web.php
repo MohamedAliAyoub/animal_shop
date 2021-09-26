@@ -41,6 +41,8 @@ Route::prefix( 'dashboard')->middleware('auth')->group(function(){
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/test', [App\Http\Controllers\HomeController::class, 'websiteIndex'])->name('website');
+Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/', [App\Http\Controllers\HomeController::class, 'websiteIndex'])->name('home');
+Route::get('/site/{id?}/{category?}', [App\Http\Controllers\HomeController::class, 'websiteIndex'])->name('website');
+Route::get('/product/{id}', [App\Http\Controllers\HomeController::class, 'productDetails'])->name('product');
+Route::get('/product', [App\Http\Controllers\HomeController::class, 'productSearch'])->name('productSearch');
