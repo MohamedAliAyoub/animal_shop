@@ -94,7 +94,7 @@
                            </div>
                            <div class="brand-logo logo-sm-center">
                               <a href="{{route('website')}}">
-                              <img src="{{asset('website/images/layout-5/logo/animal_logo.png')}}" class="img-fluid " alt="logo-header">
+                              <img src="{{asset('website/images/layout-5/logo/animal_logo1.png')}}" class="img-fluid " alt="logo-header">
                               </a>
                            </div>
                         </div>

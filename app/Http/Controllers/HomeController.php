@@ -48,7 +48,7 @@ class HomeController extends Controller
     public function productSearch(Request $request)
     {
         $search = $request->search;
-//        dd($search);
+        //        dd($search);
         $products = Product::with('images', 'category')->take(5)->get();
         $categories = Category::take(5)->get();
         $product = Product::where('name', $search)->with('images', 'category')->first();

@@ -174,11 +174,11 @@
                         </div>
                         <div class="detail-right">
                           <div class="check-price">
-                            $ 56.21
+                          R.S{{$product->price + $product->price }}
                           </div>
                           <div class="price">
                             <div class="price">
-                              $ {{$product->price}}
+                              R.S{{$product->price}}
                             </div>
                           </div>
                         </div>

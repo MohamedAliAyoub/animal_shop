@@ -48,8 +48,8 @@
                             <div class="pro-group">
                                 <h2>{{$product->name}}</h2>
                                 <ul class="pro-price">
-                                    <li>${{$product->price}}</li>
-                                    <li><span>mrp ${{$product->price + $product->price}}</span></li>
+                                    <li>R.S{{$product->price}}</li>
+                                    <li><span>mrp R.S{{$product->price + $product->price}}</span></li>
                                     <li>50% off</li>
                                 </ul>
                                 <ul class="pro-price">
