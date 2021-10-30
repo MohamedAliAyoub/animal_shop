@@ -131,8 +131,8 @@
                                     <a  class="dark-menu-item" href="javascript:void(0)">المنتجات</a>
                                     <ul>
 
-                                    @foreach($products as $category)
-                                       <li><a href="about-page.html">{{$category->name}}</a></li>
+                                    @foreach($products as $product)
+                                       <li><a href="{{route('product',$product->id)}}">{{$product->name}}</a></li>
                                     @endforeach
 
                                     </ul>

@@ -55,7 +55,7 @@ class UserController extends Controller
         $user = User::query()->findOrFail($id);
         $request->validate([
             'name' => 'required|string',
-            'password' => 'nullable|string',
+            'password' => 'nullable|string|min:4',
             'email' => 'required|string|email|max:191|unique:users,email,' . $user->id . ',id',
         ]);
         $password = Hash::make($request->password);
@@ -97,7 +97,7 @@ class UserController extends Controller
             $user = auth()->user();
             $request->validate([
                 'name' => 'required|string',
-                'password' => 'nullable|string|confirmed',
+                'password' => 'nullable|string|confirmed|min:4',
                 'email' => 'required|string|email|max:191|unique:users,email,' . $user->id . ',id',
             ]);
 
