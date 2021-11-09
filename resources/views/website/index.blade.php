@@ -60,8 +60,8 @@
                   <img src="{{asset('website//images/testimonial/1.jpg')}}" class="img-fluid rounded-circle  " alt="testimonial">
                 </div>
                 <div class="media-body">
-                  <h5>mark jecno</h5>
-                  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.</p>
+                  <h5>مالك المتجر</h5>
+                  <p>الحيوانات الأليفة هي الحيوانات التي تعيش مع الإنسان ويُربيها في بيته أو في المزارع بهدف الاستفادة منها أو التسلية، وقد بدأ الإنسان بتربية الحيوانات الأليفة منذ القدم، وقد استخدمها الإنسان بداية لتكون أنيسة له ومرافقة له في الغابات والمزارع أو بهدف الاستفادة من حليبها أو جلودها، أو بهدف التنقل عليها والسير لمسافات طويلة مثل الأحصنة والحمير، وبعض الحيوانات الأليفة يتم الاحتفاظ بها للحراسة وحماية البيوت والمزارع أو حراسة الحيوانات الأخرى، وبعضها يُستخدم لأعمال الزراعة مثل الحراثة، ومن أكثر الناس الذين يحتفظون بالحيوانات الأليفة هو الراعي الذي يرعى الغنم ويسرح بها في البراري، ويركب عادة على الحمار بصفته حيوانًا أليفًا أيضًا ليحمله بين الجبال والوديان، بالإضافة إلى الكلب الذي يحرس الأغنام.</p>
                 </div>
               </div>
             </div>
@@ -73,8 +73,8 @@
                   <img src="{{asset('website//images/testimonial/2.jpg')}}" class="img-fluid rounded-circle  " alt="testimonial">
                 </div>
                 <div class="media-body">
-                  <h5>mark jecno</h5>
-                  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.</p>
+                  <h5>مالك المتجر</h5>
+                  <p>الحيوانات الأليفة هي الحيوانات التي تعيش مع الإنسان ويُربيها في بيته أو في المزارع بهدف الاستفادة منها أو التسلية، وقد بدأ الإنسان بتربية الحيوانات الأليفة منذ القدم، وقد استخدمها الإنسان بداية لتكون أنيسة له ومرافقة له في الغابات والمزارع أو بهدف الاستفادة من حليبها أو جلودها، أو بهدف التنقل عليها والسير لمسافات طويلة مثل الأحصنة والحمير، وبعض الحيوانات الأليفة يتم الاحتفاظ بها للحراسة وحماية البيوت والمزارع أو حراسة الحيوانات الأخرى، وبعضها يُستخدم لأعمال الزراعة مثل الحراثة، ومن أكثر الناس الذين يحتفظون بالحيوانات الأليفة هو الراعي الذي يرعى الغنم ويسرح بها في البراري، ويركب عادة على الحمار بصفته حيوانًا أليفًا أيضًا ليحمله بين الجبال والوديان، بالإضافة إلى الكلب الذي يحرس الأغنام.</p>
                 </div>
               </div>
             </div>
@@ -86,8 +86,8 @@
                   <img src="{{asset('website//images/testimonial/3.jpg')}}" class="img-fluid rounded-circle  " alt="testimonial">
                 </div>
                 <div class="media-body">
-                  <h5>mark jecno</h5>
-                  <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.</p>
+                  <h5>مالك المتجر</h5>
+                  <p>الحيوانات الأليفة هي الحيوانات التي تعيش مع الإنسان ويُربيها في بيته أو في المزارع بهدف الاستفادة منها أو التسلية، وقد بدأ الإنسان بتربية الحيوانات الأليفة منذ القدم، وقد استخدمها الإنسان بداية لتكون أنيسة له ومرافقة له في الغابات والمزارع أو بهدف الاستفادة من حليبها أو جلودها، أو بهدف التنقل عليها والسير لمسافات طويلة مثل الأحصنة والحمير، وبعض الحيوانات الأليفة يتم الاحتفاظ بها للحراسة وحماية البيوت والمزارع أو حراسة الحيوانات الأخرى، وبعضها يُستخدم لأعمال الزراعة مثل الحراثة، ومن أكثر الناس الذين يحتفظون بالحيوانات الأليفة هو الراعي الذي يرعى الغنم ويسرح بها في البراري، ويركب عادة على الحمار بصفته حيوانًا أليفًا أيضًا ليحمله بين الجبال والوديان، بالإضافة إلى الكلب الذي يحرس الأغنام.</p>
                 </div>
               </div>
             </div>

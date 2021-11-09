@@ -24,7 +24,7 @@
                   <div class="col-xl-7 col-md-5 col-sm-6">
                      <div class="top-header-right">
                         <div class="top-menu-block">
-                           <ul>
+                           <!-- <ul>
                               <li><a href="javascript:void(0)">gift cards</a></li>
                               <li><a href="javascript:void(0)">Notifications</a></li>
                               <li><a href="javascript:void(0)">help & contact</a></li>
@@ -32,9 +32,9 @@
                               <li><a href="javascript:void(0)">track order</a></li>
                               <li><a href="javascript:void(0)">shipping </a></li>
                               <li><a href="javascript:void(0)">easy returns</a></li>
-                           </ul>
+                           </ul> -->
                         </div>
-                        <div class="language-block">
+                        <!-- <div class="language-block">
                            <div class="language-dropdown">
                               <span  class="language-dropdown-click">
                               اللغة  <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -53,7 +53,7 @@
 
                               </ul>
                            </div>
-                        </div>
+                        </div> -->
                      </div>
                   </div>
                </div>
@@ -67,7 +67,7 @@
                         <div class="menu-left">
                            <div class="sm-nav-block">
                               <span class="sm-nav-btn"><i class="fa fa-bars"></i></span>
-                              <ul class="nav-slide">
+                              <!-- <ul class="nav-slide">
                                  <li>
                                     <div class="nav-sm-back">
                                        back <i class="fa fa-angle-right ps-2"></i>
@@ -90,7 +90,7 @@
                                     <i class="fa fa-angle-up pro-up" ></i>
                                     </a>
                                  </li>
-                              </ul>
+                              </ul> -->
                            </div>
                            <div class="brand-logo logo-sm-center">
                               <a href="{{route('website')}}">
@@ -103,7 +103,7 @@
                               <div class="toggle-nav"><i class="fa fa-bars sidebar-bar"></i></div>
                               <ul id="main-menu" class="sm pixelstrap sm-horizontal">
                                  <li>
-                                    <div class="mobile-back text-right">Back<i class="fa fa-angle-right ps-2" aria-hidden="true"></i></div>
+                                    <div class="mobile-back text-right">الرجوع<i class="fa fa-angle-right ps-2" aria-hidden="true"></i></div>
                                  </li>
                                  <!--HOME-->
                                  <li>
@@ -189,9 +189,9 @@
                                     <button class="navbar-toggler" type="button">
                                     <span class="navbar-icon"><i class="fa fa-arrow-down"></i></span>
                                     </button>
-                                    <h5 class="mb-0 ms-3 text-white title-font">الاقسام</h5>
+                                    <h5 class="mb-0 ms-3 text-white title-font">بحث</h5>
                                  </nav>
-                                 <div class="collapse hide nav-desk" id="navbarToggleExternalContent">
+                                 <!-- <div class="collapse hide nav-desk" id="navbarToggleExternalContent">
                                     <ul class="nav-cat title-font">
                                        <li><a href="category-page(left-sidebar).html"> <img src="{{asset('website/images/layout-1/nav-img/01.png')}}" alt="catergory-product"> western ware</a></li>
                                        <li><a href="category-page(left-sidebar).html"> <img src="{{asset('website/images/layout-1/nav-img/02.png')}}" alt="catergory-product"> TV, Appliances</a></li>
@@ -207,7 +207,7 @@
                                        </li>
                                        <li> <a class="mor-slide-click">mor category <i class="fa fa-angle-down pro-down"></i><i class="fa fa-angle-up pro-up"></i></a></li>
                                     </ul>
-                                 </div>
+                                 </div> -->
                               </div>
                            </div>
                            <div class="input-block">
@@ -215,7 +215,7 @@
                                  <form method="get" action="{{route('productSearch')}}" class="big-deal-form">
                                     <div class="input-group ">
                                        <button type="submit"> <span class="search"><i class="fa fa-search"></i></span></button>
-                                       <input type="text" name="search" class="form-control" placeholder="Search a Product" >
+                                       <input type="text" name="search" class="form-control" placeholder="بحث عن منتج" >
                                         <select>
                                                 <option> <a href="{{route('website')}}"> الكل </a> </option>
                                         @foreach($categories as $category)
